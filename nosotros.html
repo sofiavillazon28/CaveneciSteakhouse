@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavenecia - Nosotros</title>
+    <link rel="icon" type="image/png" href="assets/ico.svg">
+
+    <link rel="stylesheet" href="css/general.css">
+</head>
+
+<body>
+
+    <header class="header slide-down">
+        <div class="container-large space-between d-flex">
+            <div class="logo"><img src="assets/logo.svg" alt="logoDupont"></div>
+            <div class="d-flex">
+                <button class=" menu-toggle" aria-label="Menú">☰</button>
+
+                <nav class="nav" aria-label="Menú principal">
+
+                    <ul>
+                        <li><a class="btn btn-dafault" href="#">Home</a></li>
+                        <li><a class="btn btn-dafault active" href="#">Nosotros</a></li>
+                        <li class="has-submenu">
+                            <a class="btn btn-dafault" href="#">Locales <img src="assets/arrow-up.svg" alt=""></a>
+                            <ul class="submenu">
+                                <li><a href="#">San isidro</a></li>
+                                <li><a href="#">Local 2</a></li>
+                                <li><a href="#">Local 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="btn btn-dafault" href="#">Carta</a></li>
+                    </ul>
+
+                </nav>
+
+                <a class="btn btn-secondary reserva" href="#">Reservar</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="section paper-dark fade-in">
+        <div class="container-short center-content">
+
+            <h1 class="text-main-5xl text-light mt-120 title-decoration">Sobre nostros</h1>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container-focus container-main">
+            <div class="d-flex gap-80 grid-2">
+                <div class="center-responsive fade-up">
+                    <img class="mb-32" src="assets/fire.svg" alt="">
+                    <h5 class="text-main-4xl mb-32 text-light center-responsive"> El fuego que despierta el sabor
+                    </h5>
+                    <p class="text-secondary-sm  mt-16 text-light">Lorem Ipsum has been the industry's standard
+                        dummy
+                        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                        make a type specimen book. It has survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged. </p>
+
+                    <p class="text-secondary-sm  mt-16 text-light">Lorem Ipsum has been the industry's standard
+                        dummy
+                        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                        make a type specimen book. It has survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged. </p>
+                </div>
+                <div class="fade-right">
+                    <div class="stack-gallery">
+                        <div class="item"><img src="assets/carta3.jpg" alt="Restaurante" data-name="Restaurante"></div>
+                        <div class="item"><img src="assets/gallery6.png" alt="Trago" data-name="Trago"></div>
+                        <div class="item"><img src="assets/carta7.jpg" alt="Parrilla" data-name="Parrilla"></div>
+                        <div class="item"><img src="assets/carta1.jpg" alt="Comida" data-name="Comida"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="video-section">
+        <div class="container-focus container-main py-80">
+            <div class="fade-up">
+                <h2 class="text-main-4xl title-decoration text-light align-center">Descubre lo que nos hace
+                    únicos
+                </h2>
+            </div>
+            <div class="video-thumbnail mt-64 fade-up" id="openVideo">
+                <img src="assets/thumbnail.jpg" alt="Vista previa del video">
+                <div class="play-button">▶</div>
+            </div>
+        </div>
+        <!-- Modal del video -->
+        <div class="video-modal" id="videoModal">
+            <div class="video-wrapper">
+                <span class="close"><img src="assets/close-white.svg" alt=""></span>
+                <iframe id="videoFrame" src="" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-focus container-main py-80">
+            <div class="fade-up">
+                <h2 class="text-main-4xl title-decoration-red text-light align-center">Por qué la gente nos elige</h2>
+            </div>
+            <div class="">
+
+                <div class="container-focus grid-3 center-content">
+                    <div class="bounce">
+                        <img class="mb-32 mt-32" src="assets/us-1.svg" alt="">
+                        <p class="text-secondary-md mb-12 text-light">PARRILLA A LA LEÑA</p>
+                        <p class="text-secondary-sm text-light">El fuego y el humo son parte esencial de nuestra
+                            cocina: auténtico sabor a la brasa.</p>
+                    </div>
+                    <div class="bounce">
+                        <img class="mb-32 mt-32" src="assets/us-2.svg" alt="">
+                        <p class="text-secondary-md mb-12 text-light">CALIDAD PREMIUM</p>
+                        <p class="text-secondary-sm text-light">El fuego y el humo son parte esencial de nuestra
+                            cocina: auténtico sabor a la brasa.</p>
+                    </div>
+                    <div class="bounce">
+                        <img class="mb-32 mt-32" src="assets/us-3.svg" alt="">
+                        <p class="text-secondary-md mb-12 text-light">CHEFS CON EXPERIENCIA</p>
+                        <p class="text-secondary-sm text-light">Nuestro equipo combina técnica, pasión y creatividad
+                            en cada plato.</p>
+                    </div>
+                    <div class="bounce">
+                        <img class="mb-32 mt-32" src="assets/us-4.svg" alt="">
+                        <p class="text-secondary-md mb-12 text-light">INGREDIENTES FRESCOS</p>
+                        <p class="text-secondary-sm text-light">Seleccionamos productos de la mejor calidad para
+                            cada preparación.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section paper-dark fade-up">
+        <div class="container-short center-content" style=" background-image: url('assets/gallery5.png');">
+            <div class="content-index">
+                <h1 class="text-main-4xl text-light mt-32 mb-42 title-decoration">Te ofrecemos una experiencia <br>
+                    gastronómica inolvidable.</h1>
+                <button href="#" class="bounce btn btn-primary">RESERVA UNA MESA</button>
+            </div>
+            <div class="overlay"></div>
+        </div>
+    </section>
+
+    <footer class="fade-up">
+        <div class="container-main ">
+            <div class="py-56">
+
+                <div class="container-footer d-flex grid-2  space-between flex-start center-responsive">
+                    <div class="center-responsive align-center mb-56">
+                        <img src="assets/logo.svg" alt="">
+                        <div class="d-flex mt-16 justify-center-responsive mb-56">
+                            <button class="btn btn-transparent"><img src="assets/facebook.svg" alt=""></button>
+                            <button class="btn btn-transparent"><img src="assets/twitter.svg" alt=""></button>
+                            <button class="btn btn-transparent"><img src="assets/instagram.svg" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="d-flex grid-3 flex-start space-around w-70">
+                        <div>
+                            <p class="text-secondary-xs mb-24 pl-8">OPCIONES</p>
+                            <ul class="">
+                                <li><button class="btn btn-transparent" href="">RESERVA</buttons>
+                                </li>
+                                <li><button class="btn btn-transparent" href="">NOSOTROS</buttons>
+                                </li>
+                                <li><button class="btn btn-transparent" href="">CARTA</buttons>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="text-secondary-xs mb-24 pl-8">LEGAL</p>
+                            <ul>
+                                <li><button class="btn btn-transparent" href="">TÉRMINOS Y CONDICIONES</buttons>
+                                </li>
+                                <li><button class="btn btn-transparent" href="">POLÍTICAS DE PRIVACIDAD</buttons>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="text-secondary-xs mb-24 ">LOCALES</p>
+                            <div class="d-flex grid-2">
+                                <div>
+                                    <div>
+                                        <p class="text-secondary-xs"> Local 1</p>
+                                        <p class="text-secondary-xs"> Nombre de la calle ***</p>
+                                        <p class="text-secondary-xs"> Reservas: +51 *** *** ***</p>
+                                    </div>
+
+                                    <div>
+                                        <p class="text-secondary-xs"> Local 1</p>
+                                        <p class="text-secondary-xs"> Nombre de la calle ***</p>
+                                        <p class="text-secondary-xs"> Reservas: +51 *** *** ***</p>
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <div>
+                                        <p class="text-secondary-xs"> Local 1</p>
+                                        <p class="text-secondary-xs"> Nombre de la calle ***</p>
+                                        <p class="text-secondary-xs"> Reservas: +51 *** *** ***</p>
+                                    </div>
+
+                                    <div>
+                                        <p class="text-secondary-xs"> Local 1</p>
+                                        <p class="text-secondary-xs"> Nombre de la calle ***</p>
+                                        <p class="text-secondary-xs"> Reservas: +51 *** *** ***</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="center-content mb-42">
+                <p class="text-secondary-xs">©2025 Cavenecia Steakhouse. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/videogallery.js"></script>
+    <script src="js/animaciones.js"></script>
+</body>
+
+</html>

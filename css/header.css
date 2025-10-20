@@ -1,0 +1,160 @@
+@import 'variables.css';
+
+/* ——— Header ——— */
+header {
+    background: transparent;
+    padding: var(--sp-24);
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    text-align: center;
+
+    transition:
+        background 0.5s ease,
+        transform 0.5s ease,
+        opacity 0.5s ease;
+
+    opacity: 0.95;
+    transform: translateY(-20px);
+    /* 🔹 ligeramente hacia arriba al inicio */
+}
+
+.header.scrolled {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    transform: translateY(0);
+    opacity: 1;
+    padding: var(--sp-8);
+
+}
+
+.logo img {
+    width: 176px;
+    height: 70px;
+}
+
+header nav ul {
+    display: flex;
+    gap: var(--sp-32);
+    list-style: none;
+    margin-right: var(--sp-32);
+}
+
+.nav {
+    display: inline;
+}
+
+/* ===== SUBMENÚ ===== */
+.has-submenu {
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    top: var(--sp-36);
+    background: var(--paperDark-150);
+    list-style: none;
+    display: none;
+    padding: var(--sp-0);
+    min-width: 180px;
+    flex-direction: column;
+    gap: 0px;
+    z-index: var(--sp-4);
+}
+
+.submenu li a {
+    display: block;
+    padding: var(--sp-12) var(--sp-24);
+    color: var(--textLight-300);
+    font-size: var(--size-14);
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+.submenu li a:hover {
+    background: var(--naranjaCalidad-300);
+    color: var(--textLight-300);
+}
+
+/* Mostrar el submenu al pasar el mouse */
+.has-submenu:hover .submenu {
+    display: flex;
+}
+
+/* === TOGGLE MENU === */
+.menu-toggle {
+    display: none;
+    font-size: 3rem;
+    color: var(--textLight-300);
+    cursor: pointer;
+    z-index: 100;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+/* === Responsive Header === */
+@media (max-width: 1064px) {
+    header {
+        padding: var(--sp-8);
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .logo img {
+        width: 116px;
+        height: 70px;
+        margin-top: 4px;
+    }
+
+    .reserva {
+        display: none !important;
+    }
+
+    .nav {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.95);
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        z-index: 99;
+    }
+
+    .nav.active {
+        display: flex;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .submenu {
+        position: static;
+        background: none;
+        display: none;
+    }
+
+    .has-submenu.active .submenu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-reserva {
+        display: none;
+    }
+}

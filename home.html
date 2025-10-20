@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavenecia - Home</title>
+    <link rel="icon" type="image/png" href="assets/ico.svg">
+
+    <link rel="stylesheet" href="css/general.css">
+
+</head>
+
+<body>
+
+    <header class="heade slide-down">
+        <div class="container-large space-between d-flex">
+            <div class="logo"><img src="assets/logo.svg" alt="logoDupont"></div>
+            <div class="d-flex">
+                <button class=" menu-toggle" aria-label="Menú">☰</button>
+
+                <nav class="nav" aria-label="Menú principal">
+
+                    <ul>
+                        <li><a class="btn btn-dafault active" href="#">Home</a></li>
+                        <li><a class="btn btn-dafault" href="#">Nosotros</a></li>
+                        <li class="has-submenu">
+                            <a class="btn btn-dafault" href="#">Locales <img src="assets/arrow-up.svg" alt=""></a>
+                            <ul class="submenu">
+                                <li><a href="#">San isidro</a></li>
+                                <li><a href="#">Local 2</a></li>
+                                <li><a href="#">Local 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="btn btn-dafault" href="#">Carta</a></li>
+                    </ul>
+                </nav>
+                <a class="btn btn-secondary reserva" href="#">Reservar</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- SLIDER -->
+    <section class="slider fade-up">
+        <div class="slides">
+
+            <div class="slide active" style="background-image: url('assets/hero1.jpg');">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h1 class="text-main-5xl text-light title-decoration-left">El fuego que despierta el sabor</h1>
+                    <button href="#" class="btn btn-primary">Reservar</button>
+                </div>
+            </div>
+
+            <div class="slide" style="background-image: url('assets/hero2.jpg');">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h1 class="text-main-5xl text-light title-decoration-left">Tradición, calidez y sabor en un mismo
+                        lugar
+                    </h1>
+                    <button href="#" class="btn btn-primary">Reservar</button>
+                </div>
+            </div>
+
+            <div class="slide" style="background-image: url('assets/hero3.jpg');">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h1 class="text-main-5xl text-light title-decoration-left">Donde la carne es la protagonista</h1>
+                    <button href="#" class="btn btn-primary">Reservar</button>
+                </div>
+            </div>
+
+            <div class="slide" style="background-image: url('assets/hero4.jpg');">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h1 class="text-main-5xl text-light title-decoration-left">Cada copa cuenta una historia</h1>
+                    <button href="#" class="btn btn-primary">Reservar</button>
+                </div>
+            </div>
+
+            <div class="slide" style="background-image: url('assets/hero5.jpg');">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h1 class="text-main-5xl text-light title-decoration-left">El broche de oro de tu experiencia</h1>
+                    <button href="#" class="btn btn-primary">Reservar</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="hero-nav-container">
+            <div class="hero-nav">
+                <button class="prev"><img src="assets/arrow-down.svg" alt="arrow-up"></button>
+                <div class="dots"></div>
+                <button class="next"><img src="assets/arrow-up.svg" alt="arrow-down"></button>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="js/hero.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/animaciones.js"></script>
+</body>
+
+</html>

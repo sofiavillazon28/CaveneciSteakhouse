@@ -1,0 +1,97 @@
+.video-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.video-thumbnail {
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    aspect-ratio: 16 / 5;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.video-thumbnail:hover {
+    transform: scale(1.02);
+
+}
+
+.video-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: var(--carbon-300);
+    background: var(--naranjaCalidad-300);
+    border-radius: 50%;
+    padding: 22px 26px 20px 33px;
+    transition: background 0.3s;
+}
+
+.video-thumbnail:hover .play-button {
+    background: var(--carbon-50);
+    color: var(--light-50);
+
+}
+
+/* Modal del video */
+.video-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 90%;
+    max-width: 1500px;
+}
+
+.video-wrapper iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 8px;
+}
+
+.video-wrapper video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.video-modal .close {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .play-button {
+        font-size: 3rem;
+    }
+
+    .video-thumbnail {
+        aspect-ratio: 16 / 10;
+    }
+}

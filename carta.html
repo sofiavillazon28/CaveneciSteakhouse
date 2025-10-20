@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavenecia - Carta</title>
+    <link rel="icon" type="image/png" href="assets/ico.svg">
+
+    <link rel="stylesheet" href="css/general.css">
+</head>
+
+<body>
+
+    <header class="header slide-down">
+        <div class="container-large space-between d-flex">
+            <div class="logo"><img src="assets/logo.svg" alt="logoDupont"></div>
+            <div class="d-flex">
+                <button class=" menu-toggle" aria-label="Menú">☰</button>
+
+                <nav class="nav" aria-label="Menú principal">
+
+                    <ul>
+                        <li><a class="btn btn-dafault" href="#">Home</a></li>
+                        <li><a class="btn btn-dafault" href="#">Nosotros</a></li>
+                        <li class="has-submenu">
+                            <a class="btn btn-dafault" href="#">Locales <img src="assets/arrow-up.svg" alt=""></a>
+                            <ul class="submenu">
+                                <li><a href="#">San isidro</a></li>
+                                <li><a href="#">Local 2</a></li>
+                                <li><a href="#">Local 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="btn btn-dafault active" href="#">Carta</a></li>
+                    </ul>
+
+                </nav>
+
+                <a class="btn btn-secondary reserva" href="#">Reservar</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- SLIDER -->
+    <section class="section overlay-2 fade-up" style="background-image: url('assets/carta.jpg');">
+        <div class="container-vh center-content p-24">
+            <h2 class="text-main-4xl title-decoration text-light">Explora nuestra carta</h2>
+            <p class="text-secondary-xl mb-56 text-light">Selecciona entre carnes, postres, bebidas y más para planear
+                tu visita
+            </p>
+
+            <div class="list">
+                <button class="btn btn-secondary full-width mb-16 open-modal" data-modal="modal1">Carta</button>
+                <button class="btn btn-secondary full-width mb-16 open-modal" data-modal="modal2">Vinos</button>
+                <button class="btn btn-secondary full-width mb-16 open-modal" data-modal="modal3">Postres</button>
+                <button class="btn btn-secondary full-width mb-16 open-modal" data-modal="modal4">Bebidas</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal bounce" id="modal1">
+
+        <div class="modal-body">
+            <a href="" class="close"> <img src="assets/close.svg" alt=""></a>
+            <div class="simple-slider" id="simpleSlider">
+                <div class="slide active" alt="Slide 1" style="background-image: url('assets/carta1.jpg')"></div>
+                <div class="slide " alt="Slide 2" style="background-image: url('assets/carta2.jpg')"></div>
+            </div>
+
+            <div class="info-detail ">
+                <!-- Entradas y Ensaladas -->
+
+                <div class="content-carta grid-2 flex-start">
+                    <div class="align-center">
+                        <h4 class="text-main-2xl-reg">ENTRADA</h4>
+                        <p class="text-secondary-md text-orange">Starter</p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">VEGETALES A LA GRILLA </p>
+                        <p class="text-secondary-sm">Grilled vegetables</p>
+                        <p class="text-secondary-sm">S/ 38.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CHAMPIÑONES AL AJILLO</p>
+                        <p class="text-secondary-sm">Garlic mushrooms</p>
+                        <p class="text-secondary-sm">S/ 48.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CHAMPIÑONES SALTEADOS </p>
+                        <p class="text-secondary-sm">Sautéed mushrooms</p>
+                        <p class="text-secondary-sm">S/ 48.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CARPACCIO DE LOMO </p>
+                        <p class="text-secondary-sm">Beef carpaccio</p>
+                        <p class="text-secondary-sm">S/ 58.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CARPACCIO DE SALMÓN </p>
+                        <p class="text-secondary-sm">Salmon carpaccio</p>
+                        <p class="text-secondary-sm">S/ 58.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">PROVOLETA PARRILLERA </p>
+                        <p class="text-secondary-sm">Grilled provolone</p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">ANTICUCHO DE CORAZÓN DE RES </p>
+                        <p class="text-secondary-sm">Skewered beef heart</p>
+                        <p class="text-secondary-sm">S/ 45.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">PORCIÓN DE CHORIZO</p>
+                        <p class="text-secondary-sm">Pork sausage</p>
+                        <p class="text-secondary-sm">S/ 36.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">PORCIÓN DE MORCILLA</p>
+                        <p class="text-secondary-sm">Blood sausage</p>
+                        <p class="text-secondary-sm">S/ 36.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">PORCIÓN DE MOLLEJAS DE TERNERA</p>
+                        <p class="text-secondary-sm">Sweetbread</p>
+                        <p class="text-secondary-sm">S/ 52.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">PORCIÓN DE RIÑONES</p>
+                        <p class="text-secondary-sm">Kidneys</p>
+                        <p class="text-secondary-sm">S/ 40.00</p>
+                        <div class="mb-24"></div>
+
+                    </div>
+                    <div class="align-center">
+                        <h4 class="text-main-2xl-reg">ENSALADAS </h4>
+                        <p class="text-secondary-md text-orange">Salads</p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">PARRILLERA </p>
+                        <p class="text-secondary-sm">(Lechuga, tomate, rabanito y cebolla blanca)</p>
+                        <p class="text-secondary-sm">S/ 35.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">WEDGE </p>
+                        <p class="text-secondary-sm">(Lechuga, queso azul, salsa inglesa, cebolla, tomate y crocante de
+                            tocino)
+                        </p>
+                        <p class="text-secondary-sm">S/ 40.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CESAR SIN POLLO </p>
+                        <p class="text-secondary-sm"> (Lechuga romana, queso parmesano, aliño y crutones)</p>
+                        <p class="text-secondary-sm">S/ 40.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CESAR CON POLLO </p>
+                        <p class="text-secondary-sm"> (Lechuga romana, queso parmesano, aliño, crutones y pollo)</p>
+                        <p class="text-secondary-sm">S/ 45.00</p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-sm"> *PAN Y SALSAS POR PERSONA* S/ 7.90</p>
+
+                    </div>
+                </div>
+
+                <!-- Carne argentina y Especialidad -->
+                <div class="content-carta grid-2 flex-start">
+                    <div class="align-center">
+                        <h4 class="text-main-2xl-reg">CARNE ARGENTINA </h4>
+                        <p class="text-secondary-md text-orange">Argentinian Beef</p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">ASADO DE TIRA</p>
+                        <p class="text-secondary-sm">Short ribs</p>
+                        <p class="text-secondary-sm">500 GRAMOS</p>
+                        <p class="text-secondary-sm">S/ 195.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">BIFE ANCHO</p>
+                        <p class="text-secondary-sm">Baby Beef / Rib Eye Steak</p>
+                        <div class="mb-8"></div>
+
+                        <div class="d-flex justify-center px-24">
+                            <div>
+                                <p class="text-secondary-sm">420 GRAMOS</p>
+                                <p class="text-secondary-sm">S/ 150.00</p>
+
+                            </div>
+                            <div>
+                                <p class="text-secondary-sm">620 GRAMOS</p>
+                                <p class="text-secondary-sm">S/190.00</p>
+                            </div>
+                        </div>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">BIFE ANGOSTO</p>
+                        <p class="text-secondary-sm">Striploin</p>
+                        <div class="mb-8"></div>
+
+                        <div class="d-flex justify-center px-24">
+                            <div>
+                                <p class="text-secondary-sm">420 GRAMOS</p>
+                                <p class="text-secondary-sm">S/ 145.00</p>
+                            </div>
+                            <div>
+                                <p class="text-secondary-sm">620 GRAMOS</p>
+                                <p class="text-secondary-sm">S/180.00</p>
+                            </div>
+                        </div>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">COLITA CUADRIL</p>
+                        <p class="text-secondary-sm">Beef tri-tip</p>
+                        <div class="mb-8"></div>
+
+                        <div class="d-flex justify-center px-24">
+
+                            <div>
+                                <p class="text-secondary-sm">420 GRAMOS</p>
+                                <p class="text-secondary-sm">__________</p>
+                            </div>
+
+                            <div>
+                                <p class="text-secondary-sm">620 GRAMOS</p>
+                                <p class="text-secondary-sm">__________</p>
+                            </div>
+                        </div>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CORAZÓN DE CUADRIL</p>
+                        <p class="text-secondary-sm">Rump</p>
+                        <div class="mb-8"></div>
+
+                        <div class="d-flex justify-center px-24">
+                            <div>
+                                <p class="text-secondary-sm">420 GRAMOS</p>
+                                <p class="text-secondary-sm">__________</p>
+                            </div>
+
+                            <div>
+                                <p class="text-secondary-sm">620 GRAMOS</p>
+                                <p class="text-secondary-sm">__________</p>
+                            </div>
+                        </div>
+
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">ENTRAÑA</p>
+                        <p class="text-secondary-sm">Outside skirt</p>
+                        <p class="text-secondary-sm">320 GRAMOS</p>
+                        <p class="text-secondary-sm">S/155.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">LOMO FINO</p>
+                        <p class="text-secondary-sm">Beef tenderloin</p>
+                        <div class="mb-8"></div>
+
+                        <div class="d-flex justify-center px-24">
+                            <div>
+                                <p class="text-secondary-sm">420 GRAMOS</p>
+                                <p class="text-secondary-sm">S/155.00</p>
+                            </div>
+                            <div>
+                                <p class="text-secondary-sm">620 GRAMOS</p>
+                                <p class="text-secondary-sm">S/195.00</p>
+                            </div>
+                        </div>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">PICAÑA</p>
+                        <p class="text-secondary-sm">Coulotte steak</p>
+                        <div class="mb-8"></div>
+
+                        <div class="d-flex justify-center px-24">
+                            <div>
+                                <p class="text-secondary-sm">420 GRAMOS</p>
+                                <p class="text-secondary-sm">S/130.00</p>
+                            </div>
+                            <div>
+                                <p class="text-secondary-sm">620 GRAMOS</p>
+                                <p class="text-secondary-sm">S/160.00</p>
+                            </div>
+                        </div>
+
+                        <div class="mb-24"></div>
+
+                    </div>
+                    <div class="align-center">
+                        <h4 class="text-main-2xl-reg">ESPECIALIDADES </h4>
+                        <p class="text-secondary-md text-orange">Specials</p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">LOMO FINO SALTADO </p>
+                        <p class="text-secondary-sm">Peruvian stir-fried beef tenderloin</p>
+                        <p class="text-secondary-sm">S/ 88.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">POLLO SALTADO</p>
+                        <p class="text-secondary-sm">Peruvian stir-fried chicken tenderloin</p>
+                        <p class="text-secondary-sm">S/ 49.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CHICHARRON DE POLLO</p>
+                        <p class="text-secondary-sm">Deep fried breaded boneless chicken bites</p>
+                        <p class="text-secondary-sm">S/ 49.00</p>
+                        <div class="mb-24"></div>
+
+
+                        <p class="text-secondary-xs">BROCHETAS DE POLLO</p>
+                        <p class="text-secondary-sm">Chicken kabobs</p>
+                        <p class="text-secondary-sm">S/ 49.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">BROCHETAS DE LOMO</p>
+                        <p class="text-secondary-sm">Beef kabobs</p>
+                        <p class="text-secondary-sm">S/ 99.00</p>
+                        <div class="mb-24"></div>
+
+
+                        <p class="text-secondary-xs">HAMBURGUESA ANGUS</p>
+                        <p class="text-secondary-sm">Angus hamburger</p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+
+                        <p class="text-secondary-xs">1⁄2 POLLO PARRILLERO</p>
+                        <p class="text-secondary-sm">Half grilled chicken</p>
+                        <p class="text-secondary-sm">S/ 49.00</p>
+                        <div class="mb-56"></div>
+
+                        <p class="text-secondary-md">Todos nuestros cortes vienen con Papas fritas y ensalada</p>
+
+                    </div>
+                </div>
+
+                <!-- Entradas y Ensaladas -->
+
+                <div class="content-carta">
+                    <div class="align-center">
+                        <h4 class="text-main-2xl-reg">PARRILLADAS ARGENTINAS</h4>
+                        <p class="text-secondary-md text-orange">Argentinian Grills</p>
+                        <div class="mb-32"></div>
+
+                        <div class="grid-2 flex-start">
+                            <div>
+                                <div class="card-border p-24 mb-24">
+                                    <p class="text-secondary-sm mb-16 text-rojoCarne">PARRILLADA PERSONAL </p>
+                                    <p class="text-secondary-sm">1 BIFE (320 GR)</p>
+                                    <p class="text-secondary-sm">1 CHORIZO</p>
+                                    <p class="text-secondary-sm">1 ANTICUCHO</p>
+                                    <p class="text-secondary-sm">1 BIFE (320 GR)</p>
+                                    <p class="text-secondary-sm mb-16">PAPAS FRITAS Y ENSALADA</p>
+                                    <p class="text-secondary-sm">S/ 79.90</p>
+                                </div>
+
+                                <div class="card-border p-24 mb-24">
+                                    <p class="text-secondary-sm mb-16 text-rojoCarne">PARRILLADA 4 CARNES </p>
+                                    <p class="text-secondary-sm">1 BIFE ANGOSTO (420 GR) 1 BIFE ANCHO (420 GR)</p>
+                                    <p class="text-secondary-sm">1 ASADO DE TIRA (250 GR) 1 PICAÑA (420 GR)</p>
+                                    <p class="text-secondary-sm">2 CHORIZOS</p>
+                                    <p class="text-secondary-sm">1 MORCILLA</p>
+                                    <p class="text-secondary-sm mb-24">PAPAS FRITAS Y ENSALADA</p>
+                                    <p class="text-secondary-sm mb-24">S/ 390.00</p>
+                                    <p class="text-secondary-md">CORTESÍA: 1 CUADRIL (320 GR)</p>
+                                </div>
+
+                                <div class="card-border p-24 mb-24">
+                                    <p class="text-secondary-sm mb-16 text-rojoCarne">PARRILLADA 4 CARNES </p>
+
+                                    <p class="text-secondary-sm">1 BIFE ANGOSTO (420 GR) 1 BIFE ANCHO (420 GR)</p>
+                                    <p class="text-secondary-sm">1 ASADO DE TIRA (250 GR) 1 PICAÑA (420 GR)</p>
+                                    <p class="text-secondary-sm">1 ENTRAÑA (320 GR)</p>
+                                    <p class="text-secondary-sm">2 CHORIZOS</p>
+                                    <p class="text-secondary-sm mb-16">2 MORCILLAS PAPAS FRITAS Y ENSALADA</p>
+                                    <p class="text-secondary-sm mb-16">S/ 450.00</p>
+                                    <p class="text-secondary-md mb-8">CORTESÍA: 1 CUADRIL (320 GR)</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="card-border p-24 mb-24">
+                                    <p class="text-secondary-sm mb-16 text-rojoCarne">PARRILLADA PARA 2 </p>
+                                    <p class="text-secondary-sm">2 BIFES (250 GR)</p>
+                                    <p class="text-secondary-sm">2 CHORIZOS</p>
+                                    <p class="text-secondary-sm">2 ANTICUCHOS</p>
+                                    <p class="text-secondary-sm mb-16">1⁄2 POLLO PARRILLERO PAPAS FRITAS Y ENSALADA</p>
+                                    <p class="text-secondary-sm">S/ 190.00</p>
+                                </div>
+
+                                <div class="card-border p-24 mb-24">
+                                    <p class="text-secondary-sm mb-16 text-rojoCarne">PARRILLADA FAMILIAR </p>
+                                    <p class="text-secondary-sm">1 BIFE ANGOSTO (420 GR) 1 BIFE ANCHO (420 GR)</p>
+                                    <p class="text-secondary-sm">1 ENTRAÑA (320 GR)</p>
+                                    <p class="text-secondary-sm">1⁄2 POLLO PARRILLERO</p>
+                                    <p class="text-secondary-sm">2 CHORIZOS</p>
+                                    <p class="text-secondary-sm">1 MORCILLA</p>
+                                    <p class="text-secondary-sm mb-16">2 ANTICUCHOS PAPAS FRITAS Y ENSALADA</p>
+                                    <p class="text-secondary-sm mb-16">S/ 350.00</p>
+                                    <p class="text-secondary-md ">CORTESÍA: 1 CUADRIL (320 GR)</p>
+
+                                </div>
+
+                                <div class="card-border p-24 mb-24">
+                                    <p class="text-secondary-sm mb-16 text-rojoCarne">PARRILLADA GAUCHA </p>
+                                    <p class="text-secondary-sm">1 LOMO FINO (320 GR)</p>
+                                    <p class="text-secondary-sm">1 PICAÑA (320 GR)</p>
+                                    <p class="text-secondary-sm">1 CUADRIL (320 GR)</p>
+                                    <p class="text-secondary-sm">1 COLITA CUADRIL (320 GR) 1 ENTRAÑA (320 GR)</p>
+                                    <p class="text-secondary-sm">2 CHORIZOS</p>
+                                    <p class="text-secondary-sm mb-16">2 MORCILLAS</p>
+                                    <p class="text-secondary-sm mb-16">PAPAS FRITAS Y ENSALADA</p>
+                                    <p class="text-secondary-sm mb-24">S/ 299.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal bounce" id="modal2">
+
+        <div class="modal-body">
+            <a href="" class="close"> <img src="assets/close.svg" alt=""></a>
+            <div class="simple-slider" id="simpleSlider">
+                <div class="slide active" alt="Slide 1" style="background-image: url('assets/carta4.jpg')"></div>
+                <div class="slide " alt="Slide 2" style="background-image: url('assets/carta4.jpg')"></div>
+            </div>
+
+            <div class="info-detail ">
+                <!-- Vinos -->
+
+                <div class="content-carta ">
+                    <div class="align-center">
+                        <h4 class="text-main-2xl-reg">VINOS ARGENTINOS</h4>
+                        <p class="text-secondary-md text-orange">Argentinian Wines</p>
+                        <div class="mb-42"></div>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs text-rojoCarne">VINOS EN BOTELLA </p>
+                        <p class="text-secondary-sm">Bottle of </p>
+                        <div class="mb-24"></div>
+
+                        <div class="d-flex justify-center">
+                            <div>
+                                <p class="text-secondary-xs">SAN FELIPE</p>
+                                <p class="text-secondary-sm">Malbec</p>
+                                <p class="text-secondary-sm">S/ 69.00</p>
+                                <div class="mb-24"></div>
+                            </div>
+                            <div>
+                                <p class="text-secondary-xs">GRAN SOMBRERO</p>
+                                <p class="text-secondary-sm">Malbec</p>
+                                <p class="text-secondary-sm">S/ 159.00</p>
+                                <div class="mb-24"></div>
+                            </div>
+
+                            <div>
+                                <p class="text-secondary-xs">EL ENEMIGO</p>
+                                <p class="text-secondary-sm">Malbec</p>
+                                <p class="text-secondary-sm">S/ 159.00</p>
+                                <div class="mb-24"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="mb-42"></div>
+                        <p class="text-secondary-xs text-rojoCarne">VINOS EN COPA </p>
+                        <p class="text-secondary-sm">Glass of wine </p>
+                        <div class="mb-24"></div>
+
+                        <div class="d-flex justify-center">
+                            <div>
+                                <p class="text-secondary-xs">SAN FELIPE</p>
+                                <p class="text-secondary-sm">Malbec</p>
+                                <p class="text-secondary-sm">S/ 18.00</p>
+                                <div class="mb-24"></div>
+                            </div>
+                            <div>
+                                <p class="text-secondary-xs">GRAN SOMBRERO</p>
+                                <p class="text-secondary-sm">Malbec</p>
+                                <p class="text-secondary-sm">S/ 39.00</p>
+                                <div class="mb-24"></div>
+                            </div>
+
+                            <div>
+                                <p class="text-secondary-xs">EL ENEMIGO</p>
+                                <p class="text-secondary-sm">Malbec</p>
+                                <p class="text-secondary-sm">S/ 39.00</p>
+                                <div class="mb-24"></div>
+                            </div>
+                        </div>
+
+                        <div class="mb-42"></div>
+                        <p class="text-secondary-xs text-rojoCarne">SANGRÍA 1 LT. </p>
+                        <p class="text-secondary-sm">Malbec </p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal bounce" id="modal3">
+
+        <div class="modal-body">
+            <a href="" class="close"> <img src="assets/close.svg" alt=""></a>
+            <div class="simple-slider" id="simpleSlider">
+                <div class="slide active" alt="Slide 1" style="background-image: url('assets/carta5.jpg')"></div>
+                <div class="slide " alt="Slide 2" style="background-image: url('assets/carta6.jpg')"></div>
+            </div>
+
+            <div class="info-detail ">
+                <!-- Postres -->
+
+                <div class="content-carta grid-2 flex-start">
+                    <div class="align-center">
+                        <h4 class="text-main-2xl-reg">POSTRES</h4>
+                        <p class="text-secondary-md text-orange">Desserts</p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">TIRAMISÚ </p>
+                        <p class="text-secondary-sm">Tiramisu</p>
+                        <p class="text-secondary-sm">S/ 14.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CHEESECAKE DE FRESA</p>
+                        <p class="text-secondary-sm">Strawberry Cheesecake</p>
+                        <p class="text-secondary-sm">S/ 14.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CHEESECAKE DE OREO </p>
+                        <p class="text-secondary-sm">Oreo Cheesecake</p>
+                        <p class="text-secondary-sm">S/ 14.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CHEESECAKE DE LIMÓN </p>
+                        <p class="text-secondary-sm">Lemon Cheesecake</p>
+                        <p class="text-secondary-sm">S/ 14.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CHEESECAKE DE ARÁNDANO </p>
+                        <p class="text-secondary-sm">Blueberry Cheesecake</p>
+                        <p class="text-secondary-sm">S/ 14.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CHEESECAKE DE MARACUYÁ </p>
+                        <p class="text-secondary-sm">Passion fruit Cheesecake</p>
+                        <p class="text-secondary-sm">S/ 14.00</p>
+                        <div class="mb-24"></div>
+
+                    </div>
+                    <div class="align-center">
+                        <h4 class="text-main-2xl-reg">GUARNICIONES </h4>
+                        <p class="text-secondary-md text-orange">Side Orders</p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">PAPAS FRITAS </p>
+                        <p class="text-secondary-sm">French Fries</p>
+                        <p class="text-secondary-sm">S/ 28.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">PAPA AL HORNO </p>
+                        <p class="text-secondary-sm">Baked Potato </p>
+                        <p class="text-secondary-sm">S/ 24.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">ARROZ CON CHOCLO </p>
+                        <p class="text-secondary-sm"> Rice and Corn</p>
+                        <p class="text-secondary-sm">S/ 22.00</p>
+                        <div class="mb-24"></div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal bounce" id="modal4">
+
+        <div class="modal-body">
+            <a href="" class="close"> <img src="assets/close.svg" alt=""></a>
+            <div class="simple-slider" id="simpleSlider">
+                <div class="slide active" alt="Slide 1" style="background-image: url('assets/carta7.jpg')"></div>
+                <div class="slide " alt="Slide 2" style="background-image: url('assets/carta8.jpg')"></div>
+            </div>
+
+            <div class="info-detail ">
+                <!-- Bebidas Alcohólicas -->
+                <div class="content-carta grid-2 flex-start">
+                    <div class="align-center">
+                        <h4 class="text-main-2xl-reg">Bebidas Sin Alcohol</h4>
+                        <p class="text-secondary-md text-orange">Non - Alcoholic Drinks</p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">JUGO DE FRESA </p>
+                        <p class="text-secondary-sm">Strawberry juice</p>
+                        <p class="text-secondary-sm">S/ 17.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">JUGO DE NARANJA</p>
+                        <p class="text-secondary-sm">Orange juice</p>
+                        <p class="text-secondary-sm">S/ 17.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">JUGO DE MARACUYÁ </p>
+                        <p class="text-secondary-sm">Passion fruit juice</p>
+                        <p class="text-secondary-sm">S/ 17.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">JUGO DE PIÑA </p>
+                        <p class="text-secondary-sm">Pineapple juice</p>
+                        <p class="text-secondary-sm">S/ 17.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">JUGO DE DURAZNO </p>
+                        <p class="text-secondary-sm">Peach juice</p>
+                        <p class="text-secondary-sm">S/ 17.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">LIMONADA DE HIERBA LUISA </p>
+                        <p class="text-secondary-sm">Lemon grass lemonade</p>
+                        <p class="text-secondary-sm">S/ 17.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">LIMONADA CLÁSICA </p>
+                        <p class="text-secondary-sm">Lemonade</p>
+                        <p class="text-secondary-sm">S/ 14.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">GASEOSA </p>
+                        <p class="text-secondary-sm">Soda</p>
+                        <p class="text-secondary-sm">S/ 9.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">AGUA ANDEA </p>
+                        <p class="text-secondary-sm">Andea water</p>
+                        <p class="text-secondary-sm">S/ 9.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">AGUA SAN MATEO </p>
+                        <p class="text-secondary-sm">San mateo water</p>
+                        <p class="text-secondary-sm">S/ 6.00</p>
+                        <div class="mb-24"></div>
+                    </div>
+                    <div class="align-center">
+                        <h4 class="text-main-2xl-reg">Café </h4>
+                        <p class="text-secondary-md text-orange">Coffee</p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">AMERICANO </p>
+                        <p class="text-secondary-sm">American</p>
+                        <p class="text-secondary-sm">S/ 9.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">EXPRESO </p>
+                        <p class="text-secondary-sm">Expresso </p>
+                        <p class="text-secondary-sm">S/ 9.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CORTADO </p>
+                        <p class="text-secondary-sm"> Cut</p>
+                        <p class="text-secondary-sm">S/ 9.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">MACCHIATO </p>
+                        <p class="text-secondary-sm"> Macchiato</p>
+                        <p class="text-secondary-sm">S/ 9.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">RISTRETO </p>
+                        <p class="text-secondary-sm"> Ristretto</p>
+                        <p class="text-secondary-sm">S/ 10.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">LATTE </p>
+                        <p class="text-secondary-sm"> Latte</p>
+                        <p class="text-secondary-sm">S/ 11.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">DOBLE EXPRESO </p>
+                        <p class="text-secondary-sm"> Double Express</p>
+                        <p class="text-secondary-sm">S/ 11.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CAPUCHINO </p>
+                        <p class="text-secondary-sm"> Cappuccino</p>
+                        <p class="text-secondary-sm">S/ 14.00</p>
+                        <div class="mb-24"></div>
+
+                    </div>
+                </div>
+
+                <!-- LOS CLÁSICOS -->
+                <div class="content-carta grid-2 flex-start">
+                    <div class="align-center">
+                        <h4 class="text-main-2xl-reg">Bebidas Alcohólicas</h4>
+                        <p class="text-secondary-md text-orange">Alcoholic Drinks</p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs text-rojoCarne">LOS ESPECIALES DE CAVENECIA </p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">BERRYS CAVENECIA </p>
+                        <p class="text-secondary-sm">Tequila blanco, frutos del bosque, triple sec, zumo de limón, clara
+                            de huevo</p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">EL BAÚL DE RAÚL </p>
+                        <p class="text-secondary-sm">Gin, licor de mora, frutos del bosque, zumo de limón, oporto
+                            sanderman</p>
+                        <p class="text-secondary-sm">S/ 44.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">MOJITO PIERRE </p>
+                        <p class="text-secondary-sm">Ron blanco, flor de jamaica, hierbabuena, zumo de maracuyá, agua
+                            con gas, prosecco</p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">PINK LADY </p>
+                        <p class="text-secondary-sm">Gin, aperol, vino rose, jarabe de toronja, mix de cítricos, agua
+                            tónica</p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">PIÑA MULE </p>
+                        <p class="text-secondary-sm">Vodka, almíbar de piña, zumo de limón, ginger beer</p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+
+                        <p class="text-secondary-xs text-rojoCarne">LOS CLÁSICOS </p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">APEROL SPRITZ </p>
+                        <p class="text-secondary-sm">Espumante, aperol</p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CAMPARI TONIC </p>
+                        <p class="text-secondary-sm">Campari, agua tónica</p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">NEGRONI SBAGLIATTO </p>
+                        <p class="text-secondary-sm">Campari, vermouth rosso, prosecco</p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">NEGRONI </p>
+                        <p class="text-secondary-sm">Gin, vermouth rosso, campari</p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">BOULEVARDIERE </p>
+                        <p class="text-secondary-sm"> Jacks daniels, vermouth rosso, campari</p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CUBA LIBRE </p>
+                        <p class="text-secondary-sm"> Ron, coca cola, limón</p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                    </div>
+                    <div class="align-center">
+
+                        <p class="text-secondary-xs">DAIQUIRI </p>
+                        <p class="text-secondary-sm"> Ron, fruta de estación, jarabe de goma</p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">MAI TAI </p>
+                        <p class="text-secondary-sm"> Ron rubio, ron blanco, amaretto, limón, zumo de piña</p>
+                        <p class="text-secondary-sm">S/ 37.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">OLD FASHION </p>
+                        <p class="text-secondary-sm"> Jack daniels, amargo de angostura, azúcar, agua con gas</p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">MOSCOW MULE </p>
+                        <p class="text-secondary-sm"> Vodka, limón, ginger beer</p>
+                        <p class="text-secondary-sm">S/ 41.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CAPITÁN </p>
+                        <p class="text-secondary-sm"> Pisco, vermouth rosso, amargo de angostura</p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">MARTINI DRY </p>
+                        <p class="text-secondary-sm"> Gin, vermouth blanco</p>
+                        <p class="text-secondary-sm">S/ 46.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">PISCO SOUR (CASA) </p>
+                        <p class="text-secondary-sm"> Pisco, limón, jarabe de goma</p>
+                        <p class="text-secondary-sm">S/ 28.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">MANHATTAN </p>
+                        <p class="text-secondary-sm"> Jack daniels, vermouth rosso, amargo de angostura</p>
+                        <p class="text-secondary-sm">S/ 44.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">COSMOPOLITAN </p>
+                        <p class="text-secondary-sm"> Vodka, triple sec, jugo de cranberry, limón</p>
+                        <p class="text-secondary-sm">S/ 37.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">APPLE MARTINI </p>
+                        <p class="text-secondary-sm"> Vodka, licor de manzana, jugo de lima</p>
+                        <p class="text-secondary-sm">S/ 36.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">TEQUILA SUNRISE </p>
+                        <p class="text-secondary-sm"> Tequila, jugo de naranja, jarabe de granadina</p>
+                        <p class="text-secondary-sm">S/ 37.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">DESTORNILLADOR </p>
+                        <p class="text-secondary-sm"> Vodka, jugo de naranja</p>
+                        <p class="text-secondary-sm">S/ 43.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">GIN AND TONIC </p>
+                        <p class="text-secondary-sm"> Gin, agua tónica</p>
+                        <p class="text-secondary-sm">S/ 43.00</p>
+                        <div class="mb-24"></div>
+
+                    </div>
+                </div>
+
+                <!-- GIN y WHISKY -->
+                <div class="content-carta grid-2 flex-start">
+                    <div class="align-center">
+                        <p class="text-secondary-xs text-rojoCarne">GIN </p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">BULLDOG </p>
+                        <p class="text-secondary-sm">S/ 44.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CITADELLE </p>
+                        <p class="text-secondary-sm">S/ 44.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">MOM </p>
+                        <p class="text-secondary-sm">S/ 44.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">TANQUERAY TEN </p>
+                        <p class="text-secondary-sm">S/ 44.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">TANQUERAY LONDON DRY </p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">BOMBAY </p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">HENDRIX</p>
+                        <p class="text-secondary-sm">S/ 50.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">GINCA </p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">BEEFEATER </p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                    </div>
+                    <div class="align-center">
+                        <p class="text-secondary-xs text-rojoCarne">WHISKY </p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">JOHNNY WALKER RED LABEL </p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">JOHNNY WALKER SWING LABEL </p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">JOHNNY WALKER BLACK LABEL </p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">JOHNNY WALKER DOUBLE BLACK </p>
+                        <p class="text-secondary-sm">S/ 44.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">JOHNNY WALKER GOLD LABEL </p>
+                        <p class="text-secondary-sm">S/ 44.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">JOHNNY WALKER BLUE LABEL </p>
+                        <p class="text-secondary-sm">S/ 132.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">JACK DANIEL’S </p>
+                        <p class="text-secondary-sm">S/ 37.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">JACK DANIEL’S HONEY </p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">OLD PARR </p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CHIVAS 12 AÑOS </p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CHIVAS 13 AÑOS </p>
+                        <p class="text-secondary-sm">S/ 50.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">GLENFIDDICH </p>
+                        <p class="text-secondary-sm">S/ 44.00</p>
+                        <div class="mb-24"></div>
+
+                    </div>
+                </div>
+
+                <!-- RON PISCO VODKA Y TEQUILA -->
+                <div class="content-carta grid-2 flex-start">
+                    <div class="align-center">
+                        <p class="text-secondary-xs text-rojoCarne">RON </p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">APPLETON ESTATE SIGNATURE </p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">APPLETON ESTATE 8 AÑOS </p>
+                        <p class="text-secondary-sm">S/ 36.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">BACARDÍ CARTA BLANCA </p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">DIPLOMÁTICO </p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">DIPLOMÁTICO </p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">FLOR DE CAÑA 12 AÑOS </p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">ZACAPA 23 AÑOS</p>
+                        <p class="text-secondary-sm">S/ 50.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs text-rojoCarne">VODKA </p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">ABSOLUT VODKA </p>
+                        <p class="text-secondary-sm">S/ 37.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">SKYY </p>
+                        <p class="text-secondary-sm">S/ 37.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">GREY GOOSE </p>
+                        <p class="text-secondary-sm">S/ 44.00</p>
+                        <div class="mb-24"></div>
+
+                    </div>
+                    <div class="align-center">
+
+                        <p class="text-secondary-xs text-rojoCarne">TEQUILA </p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">JOSE CUERVO SILVER </p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">JOSE CUERVO 1800 </p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs text-rojoCarne">PISCO </p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">INTIPALKA MOSTO VERDE TORONTEL </p>
+                        <p class="text-secondary-sm">S/ 41.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">INTIPALKA MOSTO VERDE ITALIA </p>
+                        <p class="text-secondary-sm">S/ 41.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">INTIPALKA MOSTO VERDE QUEBRANTA </p>
+                        <p class="text-secondary-sm">S/ 41.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">VIÑA DE ORO MOSTO VERDE ITALIA </p>
+                        <p class="text-secondary-sm">S/ 41.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">VIÑA DE ORO MOSTO VERDE TORONTEL </p>
+                        <p class="text-secondary-sm">S/ 46.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">FERREYROS ACHOLADO </p>
+                        <p class="text-secondary-sm">S/ 46.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">FERREYROS QUEBRANTA </p>
+                        <p class="text-secondary-sm">S/ 46.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">PORTÓN MOSTO VERDE ACHOLADO </p>
+                        <p class="text-secondary-sm">S/ 41.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">PORTÓN MOSTO VERDE QUEBRANTA </p>
+                        <p class="text-secondary-sm">S/ 41.00</p>
+                        <div class="mb-24"></div>
+                    </div>
+                </div>
+
+                <!-- DIGESTIVO y CERVEZA -->
+                <div class="content-carta grid-2 flex-start">
+                    <div class="align-center">
+                        <p class="text-secondary-xs text-rojoCarne">DIGESTIVO </p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">AMARETTO DISARONNO </p>
+                        <p class="text-secondary-sm">S/ 37.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">BAILEYS </p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">COINTREAU </p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">DRAMBUIE </p>
+                        <p class="text-secondary-sm">S/ 37.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">JERES TÍO PEPE </p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">LICOR 43 </p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">OPORTO SANDEMAN</p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs text-rojoCarne">ANÍS </p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">MONO ROJO</p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">MONO VERDE</p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">NAJAR ROJO</p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">NAJAR VERDE</p>
+                        <p class="text-secondary-sm">S/ 33.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">SAMBUCA MOLINARI</p>
+                        <p class="text-secondary-sm">S/ 39.00</p>
+                        <div class="mb-24"></div>
+
+                    </div>
+                    <div class="align-center">
+                        <p class="text-secondary-xs text-rojoCarne">CERVEZA </p>
+                        <div class="mb-32"></div>
+
+                        <p class="text-secondary-xs">BARBARIAN </p>
+                        <p class="text-secondary-sm">Red ale, ipa</p>
+                        <p class="text-secondary-sm">S/ 20.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">STELLA ARTOIS </p>
+                        <p class="text-secondary-sm">S/ 18.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CORONA </p>
+                        <p class="text-secondary-sm">S/ 18.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">HEINEKEN </p>
+                        <p class="text-secondary-sm">S/ 18.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">BUDWEISER </p>
+                        <p class="text-secondary-sm">S/ 16.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">PILSEN </p>
+                        <p class="text-secondary-sm">S/ 16.00</p>
+                        <div class="mb-24"></div>
+
+                        <p class="text-secondary-xs">CUSQUEÑA </p>
+                        <p class="text-secondary-sm">Dorada, Trigo, Negra</p>
+                        <p class="text-secondary-sm">S/ 16.00</p>
+                        <div class="mb-24"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/animaciones.js"></script>
+</body>
+
+</html>

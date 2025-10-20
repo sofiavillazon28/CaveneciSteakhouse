@@ -1,0 +1,91 @@
+:root {
+    /* ——— Main Color ——— */
+    --carbon-50: #3B3B3B;
+    --carbon-150: #181717;
+    --carbon-300: #020000;
+
+    --naranjaCalidad-50: #FFCC8F;
+    --naranjaCalidad-150: #FFA538;
+    --naranjaCalidad-300: #FF8B00;
+
+    --rojoCarne-50: #E96772;
+    --rojoCarne-150: #C72323;
+    --rojoCarne-300: #861720;
+
+    --naranjaFuego-50: #F93600;
+    --naranjaFuego-150: #FF692E;
+    --naranjaFuego-300: #FFA78F;
+
+    --light-50: #FFFFFF;
+    --light-150: #F0EFEF;
+    --light-300: #C5C5C5;
+
+    /* ——— Background ——— */
+    --paperDark-50: #2C2C2C;
+    --paperDark-150: #1A1A1A;
+    --paperDark-300: #020000;
+
+    --paperLight-50: #C5C5C5;
+    --paperLight-150: #F0EFEF;
+    --paperLight-300: #FFFFFF;
+
+    /* ——— Color Text ——— */
+    --textOrange-50: var(--naranjaCalidad-150);
+
+    --textDark-50: var(--carbon-300);
+    --textDark-150: var(--carbon-150);
+    --textDark-300: var(--carbon-50);
+
+    --textLight-50: var(--light-300);
+    --textLight-150: var(--light-150);
+    --textLight-300: var(--light-50);
+
+    /* ——— Space ——— */
+    --sp-0: 0px;
+    --sp-4: 4px;
+    --sp-8: 8px;
+    --sp-12: 12px;
+    --sp-16: 16px;
+    --sp-24: 24px;
+    --sp-32: 32px;
+    --sp-36: 36px;
+    --sp-40: 40px;
+    --sp-42: 42px;
+    --sp-48: 48px;
+    --sp-52: 52px;
+    --sp-56: 56px;
+    --sp-64: 64px;
+    --sp-80: 80px;
+    --sp-120: 120px;
+
+    /* ——— Typo ——— */
+    --size-14: 14px;
+    --size-16: 16px;
+    --size-18: 18px;
+    --size-24: 24px;
+    --size-36: 36px;
+    --size-40: 40px;
+    --size-56: 56px;
+    --size-64: 56px;
+    --size-80: 80px;
+    --size-90: 90px;
+}
+
+@media (max-width: 768px) {
+    :root {
+        /* ——— Typo ——— */
+        --size-14: 12px;
+        --size-16: 14px;
+        --size-18: 16px;
+        --size-24: 18px;
+        --size-36: 24px;
+        --size-40: 30px;
+        --size-56: 36px;
+        --size-64: 56px;
+        --size-80: 60px;
+        --size-90: 46px;
+
+        --sp-56: 36px;
+
+    }
+}

@@ -1,0 +1,116 @@
+/* ===== Animaciones base ===== */
+.fade-in {
+    opacity: 0;
+    transform: translateY(0);
+    transition: all 0.8s ease-out;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ===== Tipos de animaciones ===== */
+
+/* Fade-in desde abajo */
+.fade-up {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease-out;
+}
+
+.fade-up.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Fade-in normal */
+.fade {
+    opacity: 0;
+    transition: opacity 0.8s ease-out;
+}
+
+.fade.show {
+    opacity: 1;
+}
+
+/* Bounce suave (entrada con rebote) */
+.bounce {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.bounce.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Fade-in desde la izquierda */
+.fade-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 0.8s ease-out;
+}
+
+.fade-left.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Fade-in desde la derecha */
+.fade-right {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.8s ease-out;
+}
+
+.fade-right.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+/* ===== Slide-down (fade desde arriba) ===== */
+.slide-down {
+    transform: translateY(-40px);
+}
+
+.slide-down.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+@keyframes subtleBounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(-4px);
+    }
+
+    60% {
+        transform: translateY(2px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.btn-primary,
+.btn-dark,
+.btn-secondary {
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-dark:hover {
+    animation: subtleBounce 0.3s ease;
+
+
+}

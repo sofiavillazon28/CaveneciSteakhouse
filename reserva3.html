@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavenecia - Reserva</title>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="icon" type="image/png" href="assets/ico.svg">
+
+</head>
+
+<body>
+
+    <header class="header slide-down">
+        <div class="container-large space-between d-flex">
+            <div class="logo"><img src="assets/logo.svg" alt="logoDupont"></div>
+            <div class="d-flex">
+                <button class=" menu-toggle" aria-label="Menú">☰</button>
+
+                <nav class="nav" aria-label="Menú principal">
+
+                    <ul>
+                        <li><a class="btn btn-dafault" href="#">Home</a></li>
+                        <li><a class="btn btn-dafault" href="#">Nosotros</a></li>
+                        <li class="has-submenu">
+                            <a class="btn btn-dafault" href="#">Locales <img src="assets/arrow-up.svg" alt=""></a>
+                            <ul class="submenu">
+                                <li><a href="#">San isidro</a></li>
+                                <li><a href="#">Local 2</a></li>
+                                <li><a href="#">Local 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="btn btn-dafault" href="#">Carta</a></li>
+                    </ul>
+
+                </nav>
+
+                <a class="btn btn-secondary reserva" href="#">Reservar</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="section paper-dark-50 fade-in">
+        <div class="container-short center-content">
+            <h1 class="text-main-5xl text-light mt-120 title-decoration">Reserva</h1>
+        </div>
+    </section>
+
+    <section class="paper-light fade-left">
+        <div class="container-focus container-main ">
+            <div class=" gap-80 ">
+                <div class="flex-responsive">
+                    <img class="mb-16" src="assets/fire-ico.svg" alt="">
+                    <ul class="stepper-reserva">
+                        <li class="active"> <a class="text-secondary-sm" href="">LOCAL</a></li>
+                        <li class="active"> <a class="text-secondary-sm" href="">RESERVA</a></li>
+                        <li class="active"> <a class="text-secondary-sm" href="">DATOS PERSONALES</a></li>
+                    </ul>
+                </div>
+
+                <div class="center-responsive flex-responsive p-56 gap-56 paper-light-50 flex-start mt-32">
+                    <div class="image-responsive">
+                        <img src="assets/paso1.jpg" alt="">
+                    </div>
+                    <div class="w-100">
+                        <span class="text-secondary-sm text-orange">PASO 3</span>
+                        <h5 class="text-main-3xl mb-32 text-dark center-responsive"> Tus datos de contacto</h5>
+                        <p class="text-secondary-sm mt-16 text-dark">Completa tus datos y revisa el resumen de tu
+                            reserva antes de confirmar.</p>
+                        <p class="text-secondary-sm mt-16 text-dark">Información de la reserva:
+                            local (San isidro), invitados (2), hora (1:15PM), fecha (8 octubre 2025)</p>
+
+
+                        <div class="mt-56 grid-2">
+                            <div>
+                                <div class="input-wrapper border-item mt-16">
+                                    <label class="bold-16" for="nombre">Nombre</label>
+                                    <input type="text" id="nombre" placeholder="Ingrese su nombre">
+                                </div>
+                                <div class="input-wrapper border-item mt-16">
+                                    <label class="bold-16" for="nombre">Correo electrónico</label>
+                                    <input type="text" id="nombre" placeholder="Ingrese su nombre">
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="input-wrapper border-item mt-16">
+                                    <label class="bold-16" for="nombre">Apellido</label>
+                                    <input type="text" id="nombre" placeholder="Ingrese su nombre">
+                                </div>
+
+                                <div class="input-wrapper border-item mt-16">
+                                    <label class="bold-16" for="nombre">Teléfono</label>
+                                    <input type="text" id="nombre" placeholder="Ingrese su número">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-56 gap-56 flex-responsive flex-end">
+                            <button class="btn btn-large mt-16 btn-secondary">ATRÁS</button>
+                            <button class="btn btn-large mt-16 btn-primary">CONFIRMAR RESERVA</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class="fade-up">
+        <div class="container-main ">
+            <div class="py-56">
+
+                <div class="container-footer d-flex grid-2  space-between flex-start center-responsive">
+                    <div class="center-responsive align-center mb-56">
+                        <img src="assets/logo.svg" alt="">
+                        <div class="d-flex mt-16 justify-center-responsive mb-56">
+                            <button class="btn btn-transparent"><img src="assets/facebook.svg" alt=""></button>
+                            <button class="btn btn-transparent"><img src="assets/twitter.svg" alt=""></button>
+                            <button class="btn btn-transparent"><img src="assets/instagram.svg" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="d-flex grid-3 flex-start space-around w-70">
+                        <div>
+                            <p class="text-secondary-xs mb-24 pl-8">OPCIONES</p>
+                            <ul class="">
+                                <li><button class="btn btn-transparent" href="">RESERVA</buttons>
+                                </li>
+                                <li><button class="btn btn-transparent" href="">NOSOTROS</buttons>
+                                </li>
+                                <li><button class="btn btn-transparent" href="">CARTA</buttons>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="text-secondary-xs mb-24 pl-8">LEGAL</p>
+                            <ul>
+                                <li><button class="btn btn-transparent" href="">TÉRMINOS Y CONDICIONES</buttons>
+                                </li>
+                                <li><button class="btn btn-transparent" href="">POLÍTICAS DE PRIVACIDAD</buttons>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="text-secondary-xs mb-24 ">LOCALES</p>
+                            <div class="d-flex grid-2">
+                                <div>
+                                    <div>
+                                        <p class="text-secondary-xs"> Local 1</p>
+                                        <p class="text-secondary-xs"> Nombre de la calle ***</p>
+                                        <p class="text-secondary-xs"> Reservas: +51 *** *** ***</p>
+                                    </div>
+
+                                    <div>
+                                        <p class="text-secondary-xs"> Local 1</p>
+                                        <p class="text-secondary-xs"> Nombre de la calle ***</p>
+                                        <p class="text-secondary-xs"> Reservas: +51 *** *** ***</p>
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <div>
+                                        <p class="text-secondary-xs"> Local 1</p>
+                                        <p class="text-secondary-xs"> Nombre de la calle ***</p>
+                                        <p class="text-secondary-xs"> Reservas: +51 *** *** ***</p>
+                                    </div>
+
+                                    <div>
+                                        <p class="text-secondary-xs"> Local 1</p>
+                                        <p class="text-secondary-xs"> Nombre de la calle ***</p>
+                                        <p class="text-secondary-xs"> Reservas: +51 *** *** ***</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="center-content mb-42">
+                <p class="text-secondary-xs">©2025 Cavenecia Steakhouse. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/animaciones.js"></script>
+</body>
+
+</html>
